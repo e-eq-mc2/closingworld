@@ -20,8 +20,8 @@ export class Credit {
     this.mesh.translateX(1)
 
     this.time = 0
-    this.speedSec = 40
-    this.yFrom =  11
+    this.speedSec = 35
+    this.yFrom =  13
     this.yTo   = -13
     this.doPaging = false
     this.direction = +1

@@ -19,7 +19,7 @@ export class Sakura {
 
     this.scene = scene
 
-    this.colormap   = new Colormap('rose')
+    this.colormap   = new Colormap('mix')
   }
 
   init() {

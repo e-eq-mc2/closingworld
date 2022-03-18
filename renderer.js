@@ -69,16 +69,13 @@ function init() {
 
   const minX = -20
   const maxX =  20
-  const minY = - closingcredits.height / 2
-  const maxY =   closingcredits.height * 3
+  const minY =  0
+  const maxY =  20
   const minZ = -20
   const maxZ =  camera.position.z - 5
-  sakura= new Sakura(4000, minX, maxX, minY, maxY, minZ, maxX, scene)
-  //scene.add( sakura.flakes )
+  sakura= new Sakura(8000, minX, maxX, minY, maxY, minZ, maxX, scene)
+  sakura.init()
 
-	//document.addEventListener( 'mousemove', onDocumentMouseMove, false );
-	//document.addEventListener( 'touchstart', onDocumentTouchStart, false );
-	//document.addEventListener( 'touchmove', onDocumentTouchMove, false );
   window.addEventListener( 'resize', onWindowResize )
 
   stats = new Stats();
